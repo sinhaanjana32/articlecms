@@ -6,7 +6,7 @@
 
 For the ArticleCMS application, Azure App Service was selected as the preferred deployment option over a Virtual Machine (VM). Since ArticleCMS is a relatively small web application, App Service provides a more cost-effective and efficient solution. Unlike a VM, App Service does not require managing the underlying operating system, networking configurations, virtual networks, subnets, or server maintenance, which significantly reduces operational complexity.
 
-From a scalability perspective, App Service can easily scale up or out with minimal configuration, making it suitable for the current and future needs of the application. In terms of availability, Azure manages the platform infrastructure and provides built-in features that help maintain application uptime without requiring additional server administration.
+From a scalability perspective, App Service can easily scale up or out with minimal configuration, making it suitable for the current and future needs of the application. In terms of availability.
 
 The deployment workflow is also simpler with App Service. The application can be directly integrated with GitHub, enabling automated deployments through a continuous integration and continuous delivery (CI/CD) pipeline. This streamlines development and reduces the effort required to publish updates.
 
